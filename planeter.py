@@ -10,10 +10,7 @@ class Planet:
 
 jorden = Planet( "Jorden", 152, 6371)
 
-def visInfo(self):
-    print(f"Planeten {self.navn} er {self.solavstand} millioner km unna sola og har radius {self.radius} km.")
 
-jorden.visInfo()
 print(jorden.navn)
 print(jorden.antallRinger)
 # Oppgave 1: 
